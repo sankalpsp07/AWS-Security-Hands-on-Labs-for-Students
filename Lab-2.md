@@ -9,29 +9,23 @@ Steps -
    Note-Port 21, we are keeping it open intentionally to create a security threat. 
 
 2) Add a tag to your target EC2 instance
+   Key-Env
+   Value- Prod
 
-3) Key-Environment
+3) Define an Assessment Target
+   -Select your EC2 instance as the assessment target
+   -Check Install Agent on EC2
 
-4) Value Production
+4) Define an Assessment Template
+   -Provide a name
+   -Select Rule Packages
+   -Set duration to 15 minutes
+   -Uncheck the box for recurring Assessment Schedule
 
-5) Define an Assessment Target
+5) Review and create the template
 
-6) Select your EC2 instance as the assessment target
+6) Assessment Run will initiate automatically
 
-7) Check Install Agent on EC2
+7) Review Findings and recommendations
 
-8) Define an Assessment Template
 
-9) Provide a name
-
-10) Select Rule Packages
-
-11) Set duration to 15 minutes
-
-12) Uncheck the box for recurring Assessment Schedule
-
-13) Review and create the template
-
-14) Assessment Run will initiate automatically
-
-15) Review Findings and recommendations
