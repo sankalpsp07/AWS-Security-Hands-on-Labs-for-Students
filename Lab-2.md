@@ -1,4 +1,4 @@
-<h1>Lab on AWS Inspector<h1>
+<h1>Lab on AWS Inspector</h1>
   
 We have a production ec2 instance that needs a network accessibility check. we will use amazon inspector to assess, analyze, and identify vulnerabilities.
 To test security, we will open port 21 on our ec2 instance. port 21 is typically associated with ftp and is not recommended to keep open on production instances.
