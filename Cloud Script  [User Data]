@@ -5,7 +5,7 @@ sudo yum install -y git
 export META_INST_ID=`curl http://169.254.169.254/latest/meta-data/instance-id`
 export META_INST_TYPE=`curl http://169.254.169.254/latest/meta-data/instance-type`
 export META_INST_AZ=`curl http://169.254.169.254/latest/meta-data/placement/availability-zone`
-curl https://raw.githubusercontent.com/Davezacofficial/AWS-Security-Hands-on-Labs-for-Students/main/user-data-html > /var/www/html/index.html
+curl https://raw.githubusercontent.com/Davezacofficial/AWS-Security-Hands-on-Labs-for-Students/main/Cloud%20Script%20%5BHTML%5D > /var/www/html/index.html
 sudo service httpd start
 
 
