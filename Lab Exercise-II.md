@@ -1,4 +1,4 @@
-# Lab on AWS Inspector
+# Lab Exercise-II
 
 We need to perform a network accessibility check on our production EC2 instance and identify any vulnerabilities using Amazon Inspector. To test the security, we will intentionally open port 21 on our EC2 instance. However, please note that port 21 is typically associated with FTP and is not recommended to be kept open on production instances.
 
