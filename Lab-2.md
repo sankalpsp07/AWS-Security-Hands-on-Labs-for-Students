@@ -1,31 +1,31 @@
-<h1>Lab on AWS Inspector</h1>
-  
-We have a production ec2 instance that needs a network accessibility check. we will use amazon inspector to assess, analyze, and identify vulnerabilities.
-To test security, we will open port 21 on our ec2 instance. port 21 is typically associated with ftp and is not recommended to keep open on production instances.
-  
-Steps -
+# Lab on AWS Inspector
 
-1) Launch an Amazon Linux EC2 instance with inbound port 21 open. This will be our target EC2 instance for assessment 
-   Note-Port 21, we are keeping it open intentionally to create a security threat. 
+We need to perform a network accessibility check on our production EC2 instance and identify any vulnerabilities using Amazon Inspector. To test the security, we will intentionally open port 21 on our EC2 instance. However, please note that port 21 is typically associated with FTP and is not recommended to be kept open on production instances.
 
-2) Add a tag to your target EC2 instance
-   Key-Env
-   Value- Prod
+## Steps
 
-3) Define an Assessment Target
-   -Select your EC2 instance as the assessment target
-   -Check Install Agent on EC2
+1. Launch an Amazon Linux EC2 instance with inbound port 21 open. This will be the target EC2 instance for assessment. 
 
-4) Define an Assessment Template
-   -Provide a name
-   -Select Rule Packages
-   -Set duration to 15 minutes
-   -Uncheck the box for recurring Assessment Schedule
+   > **Note:** We are intentionally keeping port 21 open to create a security threat.
 
-5) Review and create the template
+2. Add a tag to your target EC2 instance:
+   - Key: `Env`
+   - Value: `Prod`
 
-6) Assessment Run will initiate automatically
+3. Define an Assessment Target:
+   - Select your EC2 instance as the assessment target.
+   - Check "Install Agent on EC2".
 
-7) Review Findings and recommendations
+4. Define an Assessment Template:
+   - Provide a name.
+   - Select rule packages.
+   - Set the duration to 15 minutes.
+   - Uncheck the box for recurring Assessment Schedule.
 
+5. Review and create the template.
 
+6. The assessment run will initiate automatically.
+
+7. Review findings and recommendations.
+
+Use this lab to identify vulnerabilities on your EC2 instance and take appropriate measures to secure it.
