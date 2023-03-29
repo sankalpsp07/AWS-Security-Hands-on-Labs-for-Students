@@ -1,6 +1,6 @@
-# Lab on EC2 instance
+# Lab Exercise II
 
-Launch an instance
+### Launch an instance
 
 You can launch a Linux instance using the AWS Management Console as described in the following procedure. This tutorial is intended to help you quickly launch your first instance, so it doesn't cover all possible options. For information about advanced options, see [Launch an instance using the new launch instance wizard](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launching-instance.html). For information about other ways to launch your instance, see [Launch your instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
 
