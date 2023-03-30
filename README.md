@@ -3,7 +3,7 @@
 ## About
 
 AWS Security Hands-on Labs for students provides users with the opportunity to learn and practice various security concepts and best practices in a practical environment
-These lab documents contain step-by-step instructions and screenshots that illustrate how to perform each exercise.
+These lab documents contain step-by-step instructions that illustrate how to perform each exercise.
 
 
 ### Lab 1: Security Best Practices on AWS
