@@ -12,7 +12,7 @@ This lab is designed to provide an introduction to security best practices on AW
 
 ### Lab 2: Incident Response on AWS
 
-This lab is designed to provide an introduction to incident response on AWS. The lab includes step-by-step instructions to help users set up and configure these services on AWS to detect and respond to security incidents. By the end of this lab, users will have a basic understanding of **incident response** on AWS and be able to apply it to their own *projects*.
+This lab is designed to provide an introduction AWS Inspector. The lab includes step-by-step instructions to help users set up and configure these services on AWS to detect and respond to security incidents. By the end of this lab, users will have a basic understanding of AWS Inspector on AWS and be able to apply it to their own *projects*.
 
 ## Conclusion
 
