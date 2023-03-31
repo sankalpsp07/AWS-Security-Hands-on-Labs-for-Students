@@ -6,11 +6,11 @@ AWS Security Hands-on Labs for students provides users with the opportunity to l
 These lab documents contain step-by-step instructions that illustrate how to perform each exercise.
 
 
-### Lab 1: Security Best Practices on AWS
+### Lab 1: Setting up EC2
 
 This lab is designed to provide an introduction to EC2 service. By the end of this lab, users will have a basic understanding of EC2 on AWS and be able to apply them to their own projects. The script required for this is present in [Cloud Script [User Data]](https://github.com/Davezacofficial/AWS-Security-Hands-on-Labs-for-Students/blob/main/Cloud%20Script%20%20%5BUser%20Data%5D) file and paste it into the user-data section of VM intialization on the EC2 cloud console.
 
-### Lab 2: Incident Response on AWS
+### Lab 2: AWS Inspector for Vulnerability assessment
 
 This lab is designed to provide an introduction AWS Inspector. The lab includes step-by-step instructions to help users set up and configure these services on AWS to detect and respond to security incidents. By the end of this lab, users will have a basic understanding of AWS Inspector on AWS and be able to apply it to their own *projects*.
 
