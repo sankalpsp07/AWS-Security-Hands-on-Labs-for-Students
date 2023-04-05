@@ -16,7 +16,7 @@ This lab is designed to provide an introduction AWS Inspector. The lab includes 
 
 ## Conclusion
 
-These are meant provide for students to practice and learn about AWS security without the risk of causing harm to actual AWS resources. Students will gain hands-on experience and knowledge about AWS security.
+These are meant provide for students to practice and learn about AWS security without the risk of causing harm to actual AWS resources. Students will gain hands-on experience and knowledge about AWS Cloud security.
 
 
 To use these labs, simply *clone* or *download* this **repository** and follow the lab documents provided.
